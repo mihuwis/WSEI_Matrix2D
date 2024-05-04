@@ -1,0 +1,15 @@
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\bin\Debug\net8.0\Matrix2D.exe
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\bin\Debug\net8.0\Matrix2D.deps.json
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\bin\Debug\net8.0\Matrix2D.runtimeconfig.json
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\bin\Debug\net8.0\Matrix2D.dll
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\bin\Debug\net8.0\Matrix2D.pdb
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\Matrix2D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\Matrix2D.AssemblyInfoInputs.cache
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\Matrix2D.AssemblyInfo.cs
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\Matrix2D.csproj.CoreCompileInputs.cache
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\Matrix2D.sourcelink.json
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\Matrix2D.dll
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\refint\Matrix2D.dll
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\Matrix2D.pdb
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\Matrix2D.genruntimeconfig.cache
+C:\Users\micha\developer\wsei\programowanie\Matrix2D\Matrix2D\obj\Debug\net8.0\ref\Matrix2D.dll

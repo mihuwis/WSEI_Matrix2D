@@ -16,8 +16,8 @@ namespace Matrix2D
         {
             this.A = 1;
             this.B = 0;
-            this.C = 1;
-            this.D = 0;
+            this.C = 0;
+            this.D = 1;
         }
 
         public Matrix2D(int a, int b, int c, int d)
@@ -26,6 +26,14 @@ namespace Matrix2D
             B = b;
             C = c;
             D = d;
+        }
+
+        public static readonly Matrix2D Id = new Matrix2D();
+        public static readonly Matrix2D Zero = new Matrix2D(0, 0, 0, 0);
+
+        public override string ToString()
+        {
+            return $"[[{A}, {B}][{C}, {D}]";
         }
 
     }
