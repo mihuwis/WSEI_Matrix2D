@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Matrix2D")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88f89bd6ef44bd3e13a6c360329e4581982743e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3982c334580d9f0a57ab9f2a326e2e53eb99e546")]
 [assembly: System.Reflection.AssemblyProductAttribute("Matrix2D")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Matrix2D")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,24 +8,29 @@ namespace Matrix2D
 {
     internal class Matrix2D : IEquatable<Matrix2D>
     {
-        private int A { get; }
-        private int B { get; }
-        private int C { get; }
-        private int D { get; }
+        private int _a;
+        private int _b;
+        private int _c;
+        private int _d;
+
+        public int A { get; }
+        public int B { get; }
+        public int C { get; }
+        public int D { get; }
         public Matrix2D()
         {
-            this.A = 1;
-            this.B = 0;
-            this.C = 0;
-            this.D = 1;
+            this._a = 1;
+            this._b = 0;
+            this._c = 0;
+            this._d = 1;
         }
 
         public Matrix2D(int a, int b, int c, int d)
         {
-            A = a;
-            B = b;
-            C = c;
-            D = d;
+            _a = a;
+            _b = b;
+            _c = c;
+            _d = d;
         }
 
         public static readonly Matrix2D Id = new Matrix2D();
@@ -33,7 +38,7 @@ namespace Matrix2D
 
         public override string ToString()
         {
-            return $"[[{A}, {B}][{C}, {D}]";
+            return $"[[{_a}, {_b}][{_c}, {_d}]";
         }
 
         public bool Equals(Matrix2D? other)
