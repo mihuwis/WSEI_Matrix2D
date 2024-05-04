@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Matrix2D
 {
-    internal class Matrix2D
+    internal class Matrix2D : IEquatable<Matrix2D>
     {
         private int A { get; }
         private int B { get; }
@@ -36,5 +36,10 @@ namespace Matrix2D
             return $"[[{A}, {B}][{C}, {D}]";
         }
 
+        public bool Equals(Matrix2D? other)
+        {
+            if (ReferenceEquals(null, other)) return false;
+            return A == other.A && B == other.B && C == other.C && D == other.D ;
+        }
     }
 }
