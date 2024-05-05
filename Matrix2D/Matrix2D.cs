@@ -13,10 +13,10 @@ namespace Matrix2D
         private int _c;
         private int _d;
 
-        public int A { get; }
-        public int B { get; }
-        public int C { get; }
-        public int D { get; }
+        public int A { get => _a; }
+        public int B { get => _b; }
+        public int C { get => _c; }
+        public int D { get => _d; }
         public Matrix2D()
         {
             this._a = 1;
