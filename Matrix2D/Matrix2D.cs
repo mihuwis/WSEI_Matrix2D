@@ -41,10 +41,33 @@ namespace Matrix2D
             return $"[[{_a}, {_b}][{_c}, {_d}]";
         }
 
+        // Equals from IEquatable interface
         public bool Equals(Matrix2D? other)
         {
-            if (ReferenceEquals(null, other)) return false;
+            if (other is null) return false;
+            if (ReferenceEquals(this, other)) return true; // If Other and This are references to this same object
             return A == other.A && B == other.B && C == other.C && D == other.D ;
         }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is Matrix2D) 
+                return Equals((Matrix2D)obj);
+            else
+            return false;
+        }
+
+        public static bool Equals(Matrix2D a, Matrix2D b)
+        {
+            if ((a is null) &&  (b is null)) return true;
+            if(a is null) return false;
+            return a.Equals(b);
+        }
+
+        public override int GetHashCode() => (_a, _b, _c, _d).GetHashCode();
+
+        public static bool operator ==(Matrix2D m1 , Matrix2D m2) => Equals(m1, m2);
+        public static bool operator !=(Matrix2D m1 , Matrix2D m2) => !(m1 == m2);
+
     }
 }

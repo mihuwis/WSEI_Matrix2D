@@ -10,6 +10,8 @@
             Console.WriteLine(matrix2D.ToString());
             Console.WriteLine(Matrix2D.Zero.ToString());
 
+
+
             Console.WriteLine("dwa jedykwe równe = " + (matrix2D == matrix2D1));
             Console.WriteLine("pola A == = " + (matrix2D.A == matrix2D1.A));
             Console.WriteLine("dwa jedykwe equal = " + (matrix2D.Equals(matrix2D1)));
