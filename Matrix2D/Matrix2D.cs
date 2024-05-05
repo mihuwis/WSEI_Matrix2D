@@ -38,7 +38,7 @@ namespace Matrix2D
 
         public override string ToString()
         {
-            return $"[[{_a}, {_b}][{_c}, {_d}]";
+            return $"[[{_a}, {_b}][{_c}, {_d}]]";
         }
 
         // Equals from IEquatable interface
@@ -68,6 +68,16 @@ namespace Matrix2D
 
         public static bool operator ==(Matrix2D m1 , Matrix2D m2) => Equals(m1, m2);
         public static bool operator !=(Matrix2D m1 , Matrix2D m2) => !(m1 == m2);
+
+        public static Matrix2D operator +(Matrix2D m1, Matrix2D m2)
+        {
+            return new Matrix2D((m1.A + m2.A), (m1.B + m2.B), (m1.C + m2.C), (m1.D + m2.D));
+        }
+
+        public static Matrix2D operator -(Matrix2D m1, Matrix2D m2)
+        {
+            return new Matrix2D((m1.A - m2.A), (m1.B - m2.B), (m1.C - m2.C), (m1.D - m2.D));
+        }
 
     }
 }
