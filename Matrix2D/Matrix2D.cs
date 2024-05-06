@@ -83,5 +83,15 @@ namespace Matrix2D
                 (m1.C * m2.A + m1.D * m2.C), 
                 (m1.C * m2.B + m1.D * m2.D));
         }
+
+        public static Matrix2D operator *(Matrix2D m1, int k)
+        {
+            return new Matrix2D((m1.A * k), (m1.B * k), (m1.C * k), (m1.D * k));
+        }
+
+        public static Matrix2D operator *(int k, Matrix2D m1)
+        {
+            return new Matrix2D((m1.A * k), (m1.B * k), (m1.C * k), (m1.D * k));
+        }
     }
 }

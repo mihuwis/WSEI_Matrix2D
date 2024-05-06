@@ -37,6 +37,8 @@
             Console.WriteLine($"Suma: {sum02}");
             Matrix2D multi01 = matrix1234 * matrix1234;
             Console.WriteLine($"Multi : {multi01}");
+            Matrix2D multiK2 = matrix1234 * 2;
+            Console.WriteLine($"Multi x 2 : {multiK2}");
 
         }
     }
