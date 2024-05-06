@@ -34,11 +34,9 @@
             Console.WriteLine($"Suma: {sum01}");
 
             Matrix2D sum02 = matrix5555 + matrix1234;
-            Console.WriteLine(matrix1234.A);
-            Console.WriteLine(matrix1234.B);
-            Console.WriteLine(matrix1234.C);
             Console.WriteLine($"Suma: {sum02}");
-
+            Matrix2D multi01 = matrix1234 * matrix1234;
+            Console.WriteLine($"Multi : {multi01}");
 
         }
     }
