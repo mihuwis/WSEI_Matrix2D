@@ -8,37 +8,33 @@ namespace Matrix2D
 {
     internal class Matrix2D : IEquatable<Matrix2D>
     {
-        private int _a;
-        private int _b;
-        private int _c;
-        private int _d;
+        public int A { get; init; }
+        public int B { get; init; }
+        public int C { get; init; }
+        public int D {  get; init; }
 
-        public int A { get => _a; }
-        public int B { get => _b; }
-        public int C { get => _c; }
-        public int D { get => _d; }
         public Matrix2D()
         {
-            this._a = 1;
-            this._b = 0;
-            this._c = 0;
-            this._d = 1;
+            this.A = 1;
+            this.B = 0;
+            this.C = 0;
+            this.D = 1;
         }
 
         public Matrix2D(int a, int b, int c, int d)
         {
-            _a = a;
-            _b = b;
-            _c = c;
-            _d = d;
+            A = a;
+            B = b;
+            C = c;
+            D = d;
         }
 
         public static readonly Matrix2D Id = new Matrix2D();
-        public static readonly Matrix2D Zero = new Matrix2D(0, 0, 0, 0);
+        public static readonly Matrix2D Zero = new Matrix2D() { A = 0, B = 0, C = 0, D = 0};
 
         public override string ToString()
         {
-            return $"[[{_a}, {_b}][{_c}, {_d}]]";
+            return $"[[{A}, {B}][{C}, {D}]]";
         }
 
         // Equals from IEquatable interface
@@ -64,7 +60,7 @@ namespace Matrix2D
             return a.Equals(b);
         }
 
-        public override int GetHashCode() => (_a, _b, _c, _d).GetHashCode();
+        public override int GetHashCode() => (A, B, C, D).GetHashCode();
 
         public static bool operator ==(Matrix2D m1 , Matrix2D m2) => Equals(m1, m2);
         public static bool operator !=(Matrix2D m1 , Matrix2D m2) => !(m1 == m2);
