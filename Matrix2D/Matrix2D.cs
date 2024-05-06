@@ -93,5 +93,10 @@ namespace Matrix2D
         {
             return new Matrix2D((m1.A * k), (m1.B * k), (m1.C * k), (m1.D * k));
         }
+
+        public static Matrix2D operator -(Matrix2D m1)
+        {
+            return new Matrix2D((-m1.A), (-m1.B), (-m1.C), (-m1.D));
+        }
     }
 }

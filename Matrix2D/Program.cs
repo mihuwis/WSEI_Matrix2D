@@ -39,7 +39,8 @@
             Console.WriteLine($"Multi : {multi01}");
             Matrix2D multiK2 = matrix1234 * 2;
             Console.WriteLine($"Multi x 2 : {multiK2}");
-
+            Matrix2D multiInverted = -matrix1234;
+            Console.WriteLine($"Multi x -1 : {multiInverted}");
         }
     }
 }
