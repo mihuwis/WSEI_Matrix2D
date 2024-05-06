@@ -41,6 +41,7 @@
             Console.WriteLine($"Multi x 2 : {multiK2}");
             Matrix2D multiInverted = -matrix1234;
             Console.WriteLine($"Multi x -1 : {multiInverted}");
+            Console.WriteLine($"Transposition: {matrix1234.Transpose(matrix1234)}");
         }
     }
 }

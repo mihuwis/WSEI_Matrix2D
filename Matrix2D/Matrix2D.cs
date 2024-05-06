@@ -98,5 +98,10 @@ namespace Matrix2D
         {
             return new Matrix2D((-m1.A), (-m1.B), (-m1.C), (-m1.D));
         }
+
+        public Matrix2D Transpose(Matrix2D m)
+        {
+            return new Matrix2D((m.A), (m.C), (m.B), (m.D));
+        }
     }
 }
