@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Matrix2D
 {
-    internal class Matrix2D : IEquatable<Matrix2D>
+    public class Matrix2D : IEquatable<Matrix2D>
     {
         public int A { get; init; }
         public int B { get; init; }
